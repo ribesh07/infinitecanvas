@@ -1,0 +1,35 @@
+Privacy Policy for Infinite Canvas
+
+Effective date: 2026/02/02
+
+Infinite Canvas respects your privacy. This app is designed to work completely offline and does not collect or share any personal information.
+
+Information Collection and Use
+
+Infinite Canvas does not collect, store, or share any personal data.
+The app does not require users to create an account or provide personal information.
+
+Permissions
+
+The app may request basic device permissions only when required for core functionality (such as saving drawings locally on your device). These permissions are used solely on your device and are not used to collect any data.
+
+Data Storage
+
+All drawings created in Infinite Canvas are stored locally on your device. The app does not upload or transmit any data to external servers.
+
+Third-Party Services
+
+Infinite Canvas does not use third-party services such as analytics, advertising, or tracking tools.
+
+Children’s Privacy
+
+Infinite Canvas does not knowingly collect personal information from children. Since no data is collected, the app is safe for users of all ages.
+
+Changes to This Privacy Policy
+
+This privacy policy may be updated in the future. Any changes will be reflected on this page.
+
+Contact Us
+
+If you have any questions about this privacy policy, you can contact us at:
+Email: info.j1soft@gmail.com
