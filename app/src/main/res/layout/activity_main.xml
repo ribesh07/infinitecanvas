@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.j1soft.infinitecanvas.InfiniteCanvasView
+        android:id="@+id/canvasView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/expand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_add" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/redoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/expand"
+        app:layout_constraintEnd_toEndOf="@+id/expand"
+        app:srcCompat="@drawable/ic_redo" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/undoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/redoButton"
+        app:layout_constraintEnd_toEndOf="@+id/redoButton"
+        app:srcCompat="@drawable/ic_undo" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pencilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/eraserButton"
+        app:layout_constraintEnd_toEndOf="@+id/eraserButton"
+        app:srcCompat="@drawable/ic_pencil" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/penButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/pencilButton"
+        app:layout_constraintEnd_toEndOf="@+id/pencilButton"
+        app:srcCompat="@drawable/ic_pen" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/eraserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/newButton"
+        app:layout_constraintEnd_toEndOf="@+id/newButton"
+        app:srcCompat="@drawable/ic_eraser" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/newButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:clickable="true"
+        android:backgroundTint="@android:color/darker_gray"
+        android:focusable="true"
+        android:tint="@color/black"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/undoButton"
+        app:layout_constraintEnd_toEndOf="@+id/undoButton"
+        app:srcCompat="@drawable/ic_new" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
